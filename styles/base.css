@@ -1,7 +1,20 @@
 body {
   width: 100%;
+  background-color: #FF9227
+}
+
+h1 {
+  color: #1B46B2
+}
+
+p {
+  color: #1B46B2
 }
 
 .template {
+  display: none;
+}
+
+#about {
   display: none;
 }

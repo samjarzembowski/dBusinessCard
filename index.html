@@ -6,6 +6,18 @@
     <link rel="stylesheet" href="vendor/styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/modules.css">
+
+    <script id="project-template" type="text/x-handlebars-template">
+      <article class="template">
+        <header>
+          <h1>{{title}}</h1>
+          <div class="byline">
+            Deployed <time pubdate datetime="2000-01-01">{{deployedOn}}</time>
+          </div>
+        </header>
+        <section class="project-body">{{{body}}}</section>
+      </article>
+    </script>
   </head>
 
   <body>
@@ -28,15 +40,7 @@
 
     <main>
       <section id="projects" class="tab-content">
-        <article class="template">
-          <header>
-            <h1>Title</h1>
-            <div class="byline">
-              Deployed <time pubdate datetime="2000-01-01">Deploy Time</time>
-            </div>
-          </header>
-          <section class="project-body"></section>
-        </article>
+        <!-- templates go here -->
       </section>
       <section id="about" class="tab-content">
         <h1>Some of my interests:</h1>
@@ -55,6 +59,7 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
     <script src="script/blogProjects.js"></script>
     <script src="script/project.js"></script>
     <script src="script/projectView.js"></script>

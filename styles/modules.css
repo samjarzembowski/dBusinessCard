@@ -1,0 +1,23 @@
+#about {
+  display: none;
+}
+
+.nav-bar {
+  /*float: left;*/
+}
+
+.nav-bar ul li {
+  display: inline;
+}
+
+.template {
+  display: none;
+}
+
+@media screen and (max-width: 640px) {
+  .nav-bar ul {
+    display: block;
+  }
+
+  
+}

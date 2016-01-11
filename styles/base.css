@@ -1,20 +1,20 @@
 body {
-  width: 100%;
-  background-color: #FF9227
+  /*width: 100%;*/
+  background-color: lightgrey;
 }
 
 h1 {
-  color: #1B46B2
+  color: black;
 }
 
 p {
-  color: #1B46B2
+  color: black;
 }
 
-.template {
-  display: none;
+ul {
+  list-style-type: none;
 }
 
-#about {
-  display: none;
+img {
+  max-width: 100%;
 }
